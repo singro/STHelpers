@@ -9,6 +9,9 @@
 /* Begin PBXFileReference section */
 		291D12D917A6421500F6F58C /* STHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STHelper.h; sourceTree = "<group>"; };
 		291D12DA17A642FD00F6F58C /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
+		29F6B1A917A8B60D003437F6 /* STChaos.dvtcolortheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = STChaos.dvtcolortheme; sourceTree = "<group>"; };
+		29F6B1AA17A8B60D003437F6 /* STDefault.dvtcolortheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = STDefault.dvtcolortheme; sourceTree = "<group>"; };
+		29F6B1AB17A8B638003437F6 /* STCodeSnippet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STCodeSnippet.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -17,7 +20,18 @@
 			children = (
 				291D12DA17A642FD00F6F58C /* readme.md */,
 				291D12D917A6421500F6F58C /* STHelper.h */,
+				29F6B1AB17A8B638003437F6 /* STCodeSnippet.h */,
+				29F6B1A817A8B60D003437F6 /* XcodeThemes */,
 			);
+			sourceTree = "<group>";
+		};
+		29F6B1A817A8B60D003437F6 /* XcodeThemes */ = {
+			isa = PBXGroup;
+			children = (
+				29F6B1A917A8B60D003437F6 /* STChaos.dvtcolortheme */,
+				29F6B1AA17A8B60D003437F6 /* STDefault.dvtcolortheme */,
+			);
+			path = XcodeThemes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
