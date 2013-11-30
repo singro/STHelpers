@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>image Resizable</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIImage *image = [UIImage imageNamed:@"&lt;#imageName#&gt;"];
+image = [image resizableImageWithCapInsets:UIEdgeInsetsMake(28.0f, 46.0f, 22.0f, 10.0f)];
+UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
+[imageView setFrame:CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)];
+[imageView setUserInteractionEnabled:NO];
+[&lt;#superViewName#&gt; addSubview:imageView];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>81FB6C3A-42AD-4EDB-8A27-223D015E810B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIImage Resizable</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
